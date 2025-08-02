@@ -24,7 +24,20 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/my-events" element={<div className="min-h-screen flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold mb-4">My Events</h1><p className="text-muted-foreground">This page is coming soon. Continue prompting to build it out!</p></div></div>} />
+            <Route
+              path="/my-events"
+              element={
+                <div className="min-h-screen flex items-center justify-center">
+                  <div className="text-center">
+                    <h1 className="text-2xl font-bold mb-4">My Events</h1>
+                    <p className="text-muted-foreground">
+                      This page is coming soon. Continue prompting to build it
+                      out!
+                    </p>
+                  </div>
+                </div>
+              }
+            />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
