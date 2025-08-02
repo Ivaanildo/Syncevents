@@ -8,13 +8,13 @@
    * All colors are defined in HSL format for consistency with tailwind.config.ts
    */
   :root {
-    --background: 255 255 255;
+    --background: 0 0% 100%;
     --foreground: 235 16% 15%;
 
-    --card: 255 255 255;
+    --card: 0 0% 100%;
     --card-foreground: 235 16% 15%;
 
-    --popover: 255 255 255;
+    --popover: 0 0% 100%;
     --popover-foreground: 235 16% 15%;
 
     /* Primary: Modern Purple - Perfect for events */
